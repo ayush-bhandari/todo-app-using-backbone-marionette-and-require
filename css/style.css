@@ -1,0 +1,150 @@
+body {
+    background-image: url("../images/pap.jpg");
+   background-size: cover;
+   height: auto;
+   width: auto;
+}
+
+
+#main {
+	margin-top: -15px;
+	color: black;
+	text-align: center;
+    font-style: italic;
+    font-size: 90px;
+    font-weight: bold;
+
+
+}
+input[type=text] {
+	
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    color:black;
+    
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 500px;
+}
+input[type=date] {
+
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    color:black;
+    padding: 12px 20px 12px 40px;
+
+    
+}
+#date{
+		margin-left: 77px;
+}
+
+#todo{
+margin-left: 20px;
+}
+
+#titl{
+	margin-left: 133px;
+}
+
+
+
+
+label{
+	margin-left: 300px;
+	color: black;
+	text-align: left;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+#sub{
+	background-color: transparent;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+
+    min-height:30px;
+    min-width:150px;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    margin-left: 505px;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+#sub:hover   {color:red; background-color:black; text-decoration:none}
+ 
+#clr{
+	background-color: transparent;
+    border: none;
+    color: black;
+    padding: 5px 6px;
+   
+    min-height:10px;
+    min-width:15px;
+   
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+   /*margin-left: 118px;*/
+  
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#clr:hover   {color:red; background-color:black; text-decoration:none}
+
+#errorMessage{
+	position: absolute;
+	margin-left: 430px;
+	margin-top: -50px;
+	color: #A52A2A;
+	
+    font-size: 28px;
+    font-weight: bold;
+}
+#todolist{
+	width: 700px;
+    height: 100px;
+    margin-left: 450px;
+    font-size: 20px;
+   font-style: italic;
+    font-family: "Arial Black";
+}
+#frm{
+	background-image: url("../images/i.gif");
+	background-position: right;
+    background-repeat: no-repeat;
+}
+
+#copy{
+    font-family: "Arial Black";
+    font-size: 10px;
+    color: black;
+    text-align: right;
+   font-style: italic;
+   
+}
